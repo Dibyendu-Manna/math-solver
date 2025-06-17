@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Virtual Math Assistant</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <h1>I Am Your Virtual Math Teacher</h1>
+
+  <div class="upload-image">
+    <div class="inner-upload-image">
+      <input type="file" hidden />
+      <img src="" alt="Uploaded question" id="image" style="display: none;" />
+      <img src="plus.svg" id="icon" alt="Upload Icon" />
+      <span>Upload Image</span>
+    </div>
+
+    <button>Answer</button>
+  </div>
+
+  <div class="output" style="display: none;">
+    <p id="text"></p>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
